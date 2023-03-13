@@ -1,0 +1,31 @@
+Postman URL:
+https://www.getpostman.com/collections/6d73165017714625598a
+
+Yang sudah jadi:
+- API to create movies (title, description, duration, artists, genres) (/createMovie)
+- API to update movies (/updateMovie)
+- API to see most viewed movie and most viewed genre (/mostViewedMovie and /mostViewedGenre)
+- API to list movies with pagination (/listMovie)
+- API to search movies by title/description/artists/genres (/searchMovie)
+- API to track movie viewership (/startMovie and /endMovie)
+- API user registration (/userRegister)
+- API user login (/userLogin)
+- API user logout (/userLogout)
+- API to vote movie (/voteMovie)
+- API to unvote movies (/unvoteMovie)
+- API most voted movies (/listUserVoted)
+- Trace viewership based on watching duration (/traceViewership)
+
+
+Notes:
+- Untuk file upload saya belum menemukan ide bagaimana baiknya, karena yang dibuat adalah API yang mana tidak ada UI nya.
+- Untuk watch URL, ide saya adalah sebaiknya nanti dibuatkan secara otomatis by sistem saat upload file
+- Di API, saya buat sistem token, untuk mencegah ada user yang bisa akses langsung API jika tanpa ada token
+- Setiap tindakan INSERT/DELETE/UPDATE saya catat di tbl_log
+- Setiap user yang login saya buatkan session_id dan disimpan di tbl
+
+
+
+Best regards,
+Ibnu Rizal
+12 Sept 2022
